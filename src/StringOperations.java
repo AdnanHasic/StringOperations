@@ -17,8 +17,12 @@ public class StringOperations {
 		stringMethods.stringLength(text);
 
 		stringMethods.evenPosition();
-		
+
 		stringMethods.oddPosition();
+
+		stringMethods.isUppercaseOrLowercaseOrNotALetter();
+		
+		input.close();
 
 	}
 
