@@ -15,8 +15,10 @@ public class StringOperations {
 		stringMethods.setText(text);
 
 		stringMethods.stringLength(text);
-		
+
 		stringMethods.evenPosition();
+		
+		stringMethods.oddPosition();
 
 	}
 

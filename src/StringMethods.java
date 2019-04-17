@@ -25,4 +25,16 @@ public class StringMethods {
 			System.out.print(text.charAt(i) + " ");
 		}
 	}
+
+	public void oddPosition() {
+
+		System.out.println();
+
+		System.out.println("Characters on odd position of an array : ");
+
+		for (int i = 1; i < text.length(); i += 2) {
+
+			System.out.print(text.charAt(i) + " ");
+		}
+	}
 }
