@@ -14,16 +14,8 @@ public class StringOperations {
 
 		stringMethods.setText(text);
 
-		stringMethods.stringLength(text);
+		stringMethods.allMethods();
 
-		stringMethods.evenPosition();
-
-		stringMethods.oddPosition();
-
-		stringMethods.isUppercaseOrLowercaseOrNotALetter();
-		
 		input.close();
-
 	}
-
 }

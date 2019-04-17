@@ -11,7 +11,7 @@ public class StringMethods {
 		this.text = text;
 	}
 
-	public void stringLength(String text) {
+	public void stringLength() {
 
 		System.out.println("The length of a string : " + text.length());
 	}
@@ -54,6 +54,14 @@ public class StringMethods {
 		System.out.println("\nNumber of capital letters : " + counterUppercaseChracters);
 		System.out.println("Number of lowercase : " + (text.length() - (counterUppercaseChracters) - counterNonLetter));
 		System.out.println("Number of non-letter characters : " + counterNonLetter);
+
+	}
+
+	public void allMethods() {
+		stringLength();
+		evenPosition();
+		oddPosition();
+		isUppercaseOrLowercaseOrNotALetter();
 
 	}
 }
